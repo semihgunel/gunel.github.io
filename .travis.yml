@@ -1,0 +1,5 @@
+before_install:
+  - npm install yaspeller -g
+script: yaspeller "./*.html" && npx write-good ./*.html
+language: html
+ 
