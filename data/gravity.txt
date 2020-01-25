@@ -1,0 +1,6 @@
+@article{Bieler2019Gravity,
+  title={Gravity as a Reference for Estimating a Person's Height from Video},
+  author={Didier Bieler and Semih G{\"u}nel and Pascal Fua and Helge Rhodin},
+  journal={ICCV},
+  year={2019}
+}
