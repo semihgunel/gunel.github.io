@@ -59,6 +59,50 @@
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            
+      <tr onmouseout="nightsight_stop()" onmouseover="nightsight_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='defgan_res.png'><img src='images/defgan_res.png'></div>
+                <img src='images/defgan_res.png'>
+              </div>
+              <script type="text/javascript">
+                function nightsight_start() {
+                  document.getElementById('nightsight_image').style.opacity = "1";
+                }
+
+                function nightsight_stop() {
+                  document.getElementById('nightsight_image').style.opacity = "0";
+                }
+                nightsight_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://elifesciences.org/articles/48571">
+                <papertitle>Deformation-aware Unpaired Image Translation for Pose Estimation on Laboratory Animals</papertitle>
+              </a>
+              <br>
+              <a href="https://arxiv.org/abs/2001.08601"> Paper </a>  &nbsp/&nbsp
+              <a href="data/defgan.bib"> Bibtex </a>
+              <br>
+              Siyuan Li,
+              <strong>Semih Günel</strong>,
+              Mirela Ostrek,
+              Pavan Ramdya,
+              Pascal Fua,
+              Helge Rhodin
+              <br>
+              <em>arXiv</em>, 2020
+              <br>
+
+              <p>
+                  Performing unsupervised pose-estimation on lab animals using rough animal templates.
+              </p>
+
+            </td>
+          </tr>
+            
+            
 
             <tr onmouseout="nightsight_stop()" onmouseover="nightsight_start()">
                 <td style="padding:20px;width:25%;vertical-align:middle">
@@ -200,7 +244,7 @@
 
         If you are a bachelor/master student in EPFL, and want to work on the following projects for credits, you can contact me.
         <ul>
-            <li><a href=""> Biomedical Image Tracking using Differentiable Deformation Network </a></li>
+            <li><a href="project_tracking.html"> Biomedical Image Tracking using Differentiable Deformation Network </a></li>
         </ul>
 
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
