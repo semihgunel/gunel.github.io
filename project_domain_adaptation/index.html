@@ -1,0 +1,92 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<!-- thingies -->
+<title>Project proposal: Domain Adaptation for 3D Pose Estimation on Animals</title>
+<meta http-equiv="content-language" content="en" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Pragma" content="no-cache" />
+<!--<link rel="icon" type="image/png" href="http://www.iri.upc.edu/images/common/favicon.png" />-->
+<!--<link rel="shortcut icon" href="http://www.iri.upc.edu/images/common/favicon.png" />-->
+
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<!-- google fonts-->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css' />
+
+</head>
+
+<body style="margin-top: 0; padding-top: 0;">
+
+<div id="content">
+	<div style="width: 100%; font-size: 2.5em; font-weight: bold; line-height:120%;">Domain Adaptation for 3D Pose Estimation on Animals</div>
+	<div style="width: 100%; font-size: 1em; font-weight: normal; line-height:120%; margin-top: .5em;">Student project: <a href="http://cvlab.epfl.ch/">EPFL Computer Vision Lab</a>, Spring semester 2020.</div>	
+	<p></p>
+
+	<!--
+	<div style="width: 100%; margin: 2em 0; text-align: center;">
+			<img style="height: 350px;" src="domain_adaptation_2.png" alt="[img]"/>
+	</div>
+	-->
+
+
+	<div class="row">
+		<div class="column">
+			<img src="a.gif" style="width:150%">
+		</div>
+		<div class="column">
+		  <img src="b.gif" style="width:80%">
+		</div>
+	  </div>
+
+	<div style="width: 100%; font-size: 1.5em; font-weight: bold">Description</div>
+
+	<p> In this project we want to tackle one of the fundamental problems in machine learning: 
+		generalizing on a test data which is drawn from a different distribution then the training dataset.
+		We will to particularly focus on the domain adaptation problem in the special case of 3D pose estimation. </p>
+
+	<p> In general, 3D human pose estimation does not have the domain discrepancy problem [1]. Most motion capture datasets are diverse enough to cover the whole human motion space.
+		However, such properties of training data do not apply for pose estimation on animals. Animals are not as cooperative as humans, therefore 3D pose can only be gathered in highly controlled environments.
+		For example, capturing 3D data from Drosophila can be done on a non-flat surface, as in [2], which makes the inherent distribution of the data is different from an animal behaving under a flat surface. 
+		Can we still use this data to make a 3D estimation in all the animals using domain adaptation techniques? The student will try to answer such questions and will perform 3D pose estimation under domain discrepancy.
+	</p>
+
+	<p>
+		The current techniques for Domain Adaptation problems are currently dominated by learned solutions such as deep learning, and specifically by convolutional neural networks. 
+ 		To solve the domain adaptation problem for 3d pose, we will use deep learning-based domain adaptation techniques such as [3].
+	</p>
+	
+	<p style="font-weight: bold;">References:</p>
+
+	<ul style="list-style: none; margin-left: 0; padding-left: 0;">
+		<li>[1] <a href="https://arxiv.org/pdf/1705.03098.pdf">A simple yet effective baseline for 3d human pose estimation</a> In ICCV, 2017.</li>
+		<li>[2] <a href="https://elifesciences.org/articles/48571">DeepFly3D, a deep learning-based approach for 3D limb and appendage tracking in tethered, adult Drosophila</a>. In eLife, 2019.</li>
+		<li>[3] <a href="https://arxiv.org/abs/1711.06969	">Learning from Synthetic Data: Addressing Domain Shift for Semantic
+			Segmentation</a>. In CVPR, 2018</li>
+	</ul>
+
+	<p>
+		For other projects available at the Computer Vision Lab, please visit <a href="https://cvlab.epfl.ch/projects">our website</a>. 
+		<br> For a project at Neuroengineering Lab, visit <a href="https://www.epfl.ch/labs/ramdya-lab/available-projects/">our website</a>. 
+	</p>
+
+	<div style="width: 100%; font-size: 1.5em; font-weight: bold">Contact</div>
+
+	<p>For further information, please send us an e-mail:</p>
+
+	<ul>
+		<li><a href="https://semihgunel.com/">Semih Günel</a>: semih.gunel (at) epfl.ch</li>
+		<li><a href="https://people.epfl.ch/pavan.ramdya/bio?lang=en">Prof. Pavan Ramdya</a>: pavan.ramdya (at) epfl.ch</li>
+		<li><a href="https://people.epfl.ch/pascal.fua/bio?lang=en">Prof. Pascal Fua</a>: pascal.fua (at) epfl.ch</li>
+	</ul>
+
+	<p style="height: 5em;"></p>
+
+</div>
+</body></html>
