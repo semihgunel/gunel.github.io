@@ -8,6 +8,6 @@
                PascalFua and
                Pavan Ramdya},
   title     = {LiftPose3D, a deep learning-based approach for transforming 2D to 3D pose in laboratory experiments},
-  bookTitle = {bioRxiv},
-  year      = {2020}
+  bookTitle = {Nature Methods},
+  year      = {2021}
 }
