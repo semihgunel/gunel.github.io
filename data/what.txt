@@ -1,6 +1,6 @@
-@article{Guenel2019What,
+@inproceedings{Gunel2019What,
   title={What Face and Body Shapes Tell Us About Height},
   author={Semih G{\"u}nel and Helge Rhodin and Pascal Fua},
-  journal={ICCVW},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops},
   year={2019}
 }

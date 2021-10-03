@@ -1,4 +1,4 @@
-@inproceedings{Gunel19DeepFly3D,
+@article{Gunel19DeepFly3D,
   author    = {Semih G{\"u}nel and
                Helge Rhodin and
                Daniel Morales and
@@ -6,7 +6,6 @@
                Pavan Ramdya and
                Pascal Fua},
   title     = {DeepFly3D, a deep learning-based approach for 3D limb and appendage tracking in tethered, adult Drosophila},
-  bookTitle = {eLife},
-  doi       = {10.7554/eLife.48571},
+  journal   = {eLife},
   year      = {2019}
 }

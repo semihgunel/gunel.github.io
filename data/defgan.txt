@@ -1,11 +1,11 @@
 @inproceedings{Li20Deformaton,
   author    = {Siyuan Li and
-	       Semih G{\"u}nel and 
-               Mirela Ostrek and 
-               Pavan Ramdya and
-               Pascal Fua and
-               Helge Rhodin},
+              Semih G{\"u}nel and 
+              Mirela Ostrek and 
+              Pavan Ramdya and
+              Pascal Fua and
+              Helge Rhodin},
   title     = {Deformation-aware Unpaired Image Translation for Pose Estimation on Laboratory Animals},
-  bookTitle = {arXiv},
+  bookTitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
   year      = {2020}
 }
