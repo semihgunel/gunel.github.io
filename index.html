@@ -19,12 +19,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
-  <link rel="icon" type="image/png" href="images/epfl.gif">
+  <link rel="icon" type="image/png" href="images/epfl.png">
 </head>
 
 <body>
   <table
-    style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    style="width:100%;max-width:900px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
     <tbody>
       <tr style="padding:0px">
         <td style="padding:0px">
@@ -77,11 +77,59 @@
           <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
+
               <tr onmouseout="nightsight_stop()" onmouseover="nightsight_start()">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
-                    <div class="two" id='defgan_res.png'><img src='images/lp3d_res.png'></div>
-                    <img src='images/lp3d_res.png'>
+                    <div class="two" id='defgan_res.png'><img src='images/neural_action_res.png' , width="180"></div>
+                    <img src='images/neural_action_res.png' , width="180">
+                  </div>
+                  <script type="text/javascript">
+                    function nightsight_start() {
+                      document.getElementById('nightsight_image').style.opacity = "1";
+                    }
+
+                    function nightsight_stop() {
+                      document.getElementById('nightsight_image').style.opacity = "0";
+                    }
+                    nightsight_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://arxiv.org/abs/2111.14595">
+                    <papertitle> Overcoming the Domain Gap in Contrastive Learning of Neural Action Representations
+                    </papertitle>
+                  </a>
+                  <br>
+                  <a href="https://arxiv.org/abs/2111.14595"> Paper (Short) </a> &nbsp/&nbsp
+                  <a href="https://arxiv.org/abs/2112.01176"> Paper </a> &nbsp/&nbsp
+                  <a href="https://www.nature.com/articles/s41592-021-01226-z#Sec29"> Video
+                  </a> &nbsp/&nbsp
+                  <a href="https://github.com/semihgunel/MC2P"> Code </a> &nbsp/&nbsp
+                  <a href="data/neuralaction.txt"> Bibtex </a>
+                  <br>
+                  <strong>Semih Günel</strong>,
+                  Florian Aymanns,
+                  Sina Honari,
+                  Pavan Ramdya,
+                  Pascal Fua
+                  <br>
+                  <em>NeurIPS Workshop, 2021 / arXiv (Under Review)</em>, 2021
+                  <br>
+                  <p>
+                    Self-supervised action recognition and domain adaptation on human and animal neural recordings.
+                  </p>
+
+                </td>
+              </tr>
+
+
+
+              <tr onmouseout="nightsight_stop()" onmouseover="nightsight_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='defgan_res.png'><img src='images/lp3d_res.png' , width=180></div>
+                    <img src='images/lp3d_res.png' , width=180>
                   </div>
                   <script type="text/javascript">
                     function nightsight_start() {
@@ -127,8 +175,8 @@
               <tr onmouseout="nightsight_stop()" onmouseover="nightsight_start()">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
-                    <div class="two" id='defgan_res.png'><img src='images/defgan_res.png'></div>
-                    <img src='images/defgan_res.png'>
+                    <div class="two" id='defgan_res.png'><img src='images/defgan_res.png' , width=180></div>
+                    <img src='images/defgan_res.png' , width=180>
                   </div>
                   <script type="text/javascript">
                     function nightsight_start() {
@@ -142,7 +190,8 @@
                   </script>
                 </td>
                 <td style="padding:20px;width:75%;vertical-align:middle">
-                  <a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Li_Deformation-Aware_Unpaired_Image_Translation_for_Pose_Estimation_on_Laboratory_Animals_CVPR_2020_paper.html">
+                  <a
+                    href="https://openaccess.thecvf.com/content_CVPR_2020/html/Li_Deformation-Aware_Unpaired_Image_Translation_for_Pose_Estimation_on_Laboratory_Animals_CVPR_2020_paper.html">
                     <papertitle>Deformation-aware Unpaired Image Translation for Pose Estimation on Laboratory Animals
                     </papertitle>
                   </a>
@@ -176,10 +225,10 @@
 
 
               <tr onmouseout="nightsight_stop()" onmouseover="nightsight_start()">
-                <td style="padding:20px;width:25%;vertical-align:middle">
+                <td style="padding-top:0px;padding-left:20px;width:25%;vertical-align:middle">
                   <div class="one">
-                    <div class="two" id='df3d_res.jpg'><img src='images/df3d_res.jpg'></div>
-                    <img src='images/df3d_res.jpg'>
+                    <div class="two" id='df3d_res.png'><img src='images/df3d_res.png' , width=180></div>
+                    <img src='images/df3d_res.png' , width=180>
                   </div>
                   <script type="text/javascript">
                     function nightsight_start() {
@@ -217,7 +266,7 @@
                   <p>
                     Multi-view motion capture system for the model organism <a
                       href="https://en.wikipedia.org/wiki/Drosophila_melanogaster">Drosophila Melonagaster</a>.
-                  </p>
+                  </p>Includes a dataset with 1M images containing 38 landmark annotations.
 
                   Mentioned In:
                   <ul>
@@ -238,8 +287,8 @@
               <tr onmouseout="nightsight_stop()" onmouseover="nightsight_start()">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
-                    <div class="two" id='nightsight_image'><img src='images/gravity_res.jpg'></div>
-                    <img src='images/gravity_res.jpg'>
+                    <div class="two" id='nightsight_image'><img src='images/gravity_res.jpg' , width=180></div>
+                    <img src='images/gravity_res.jpg' , width=180>
                   </div>
                   <script type="text/javascript">
                     function nightsight_start() {
@@ -273,15 +322,15 @@
                   <em>ICCV</em>, 2019
                   <br>
                   <p></p>
-                  <p>Monocular scale/height estimation on videos using free-fall motion.</p>
+                  <p>Unsupervised monocular scale estimation on videos using object free-fall motion.</p>
                 </td>
               </tr>
 
               <tr onmouseout="font_stop()" onmouseover="font_start()">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
-                    <div class="two" id='font_image'><img src='images/humanheight_res.jpg'></div>
-                    <img src='images/humanheight_res.jpg'>
+                    <div class="two" id='font_image'><img src='images/humanheight_res.jpg' , width=180></div>
+                    <img src='images/humanheight_res.jpg' , width=180>
                   </div>
                   <script type="text/javascript">
                     function font_start() {
@@ -315,28 +364,101 @@
                   <em>ICCV Workshop</em>, 2019 &nbsp
                   <br>
                   <p></p>
-                  <p> Monocular scale/height estimation using single images. Monocular human pose dataset with 1e6 images and 12,000
+                  <p> Monocular scale/height estimation using single images. Monocular human pose dataset with 1e6
+                    images and 12,000
                     unique people with known height. </p>
                 </td>
               </tr>
-            </tbody>
-          </table>
 
-          <table
-            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-            <tbody>
-              <tr>
-                <td style="padding:0px">
+
+
+                  <td style="padding-top:50px;vertical-align:middle">
+                    <heading>Vision Consultation</heading>
+                  </td>
+
+
+
+
+              <tr onmouseout="font_stop()" onmouseover="font_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='font_image'><img src='images/long_term_res.png', width=180></div>
+                    <img src='images/long_term_res.png' , width=180>
+                  </div>
+                  <script type="text/javascript">
+                    function font_start() {
+                      document.getElementById('font_image').style.opacity = "1";
+                    }
+
+                    function font_stop() {
+                      document.getElementById('font_image').style.opacity = "0";
+                    }
+                    font_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a
+                    href="https://www.biorxiv.org/content/10.1101/2021.10.15.463778v1.abstract">
+                    <papertitle>Long-term imaging of the ventral nerve cord</papertitle>
+                  </a>
                   <br>
-                  <p style="text-align:right;font-size:small;">
-                    JB's <a href="https://github.com/jonbarron/jonbarron_website">HTML template</a>.
-                  </p>
+                  <a
+                    href="https://www.biorxiv.org/content/10.1101/2021.10.15.463778v1.abstract">
+                    Paper </a> &nbsp/&nbsp
+                  <a href="https://github.com/NeLy-EPFL/Long-Term-Imaging-VNC-Drosophila">Code</a>
+                  &nbsp/&nbsp
+                  <a href="https://dataverse.harvard.edu/dataverse/long_term_imaging_vnc_drosophila">Dataset</a>
+                  &nbsp/&nbsp
+                  <a href="data/long_term.txt"> Bibtex </a>
+                  <br>
+                  Laura Hermans*,
+                  Murat Kaynak*,
+                  Jonas Braun,
+                  Victor Lobato Ríos,
+                  Chin-Lin Chen,
+                  <strong>Semih Günel</strong>,
+                  Florian Aymanns,
+                  Mahmut Selman Sakar,
+                  Pavan Ramdya
+                  <br>
+                  <em>bioArxiv (Under Review)</em>, 2021 &nbsp
+                  <br>
+                  <p></p>
+                  <p> Long-term microscopy imaging of animal nervous system. </p>
                 </td>
               </tr>
-            </tbody>
-          </table>
+
+
+
+
+        </tbody>
+      </table>
+
+
+
+
+
+
+
+
+
+
+
+
+  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tbody>
+      <tr>
+        <td style="padding:0px">
+          <br>
+          <p style="text-align:right;font-size:small;">
+            JB's <a href="https://github.com/jonbarron/jonbarron_website">HTML template</a>.
+          </p>
         </td>
       </tr>
+    </tbody>
+  </table>
+  </td>
+  </tr>
   </table>
 </body>
 

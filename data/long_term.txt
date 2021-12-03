@@ -1,0 +1,14 @@
+@article{Hermans21LongTerm,
+  author    = {Laura Hermans and 
+	      Murat Kaynak and 
+	      Jonas Braun and 
+	      Victor Lobato Ríos and
+	      Chin-Lin Chen and 
+	      Semih G{\"u}nel and
+	      Florian Aymanns and
+               Mahmut Selman Sakar and
+               Pavan Ramdya},
+  title     = {Long-term imaging of the ventral nerve cord in behaving adult Drosophila},
+  journal   = {bioArxiv},
+  year      = {2021}
+}

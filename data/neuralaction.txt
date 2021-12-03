@@ -1,0 +1,13 @@
+@inproceedings{Gunel21OvercomingShort,
+  title={Overcoming the Domain Gap in Contrastive Learning of Neural Action Representations},
+  author={Semih G{\"u}nel and Florian Aymanns and Sina Honari and Pavan Ramdya and Pascal Fua},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS) Workshop Self-Supervised Learning - Theory and Practice},
+  year={2021}
+}
+
+@article{Gunel21Overcoming,
+  title={Overcoming the Domain Gap in Neural Action Representations},
+  author={Semih G{\"u}nel and Florian Aymanns and Sina Honari and Pavan Ramdya and Pascal Fua},
+  journal={arXiv},
+  year={2021}
+}
