@@ -1,6 +1,6 @@
 @article{Chen22Ascending,
 	title        = {Ascending neurons convey behavioral state to integrative sensory and action selection centers in the brain},
-	author       = {Chin-Lin Chen and Florian Aymanns and Ryo Minegishi and Victor D. V. Matsuda and Nicolas Talabot, Semih Günel and Barry J. Dickson and Pavan Ramdya},
+	author       = {Chin-Lin Chen and Florian Aymanns and Ryo Minegishi and Victor D. V. Matsuda and Nicolas Talabot and Semih Günel and Barry J. Dickson and Pavan Ramdya},
 	year         = 2022,
 	journal      = {bioRxiv}
 }
