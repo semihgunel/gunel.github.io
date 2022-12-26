@@ -5,9 +5,9 @@
   year={2021}
 }
 
-@article{Gunel21Overcoming,
+@article{Gunel22Overcoming,
   title={Overcoming the Domain Gap in Neural Action Representations},
   author={Semih G{\"u}nel and Florian Aymanns and Sina Honari and Pavan Ramdya and Pascal Fua},
-  journal={arXiv},
-  year={2021}
+  journal={International Journal of Computer Vision},
+  year={2022}
 }
